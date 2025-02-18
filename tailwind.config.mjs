@@ -8,7 +8,8 @@ export default {
       black: '#000000',
       brown: '#240E0B',
       gray: '#615A5A',
-      white: '#FFFFFF'
+      white: '#FFFFFF',
+      red: '#FF0000'
     },
     extend: {}
   },
