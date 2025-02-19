@@ -1,80 +1,128 @@
-![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
+# NEWS GAMIFICATION
 
-# React Tailwindcss Boilerplate build with Vite
+## 🚀 Sobre o Projeto
 
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
+O **NEWS GAMIFICATION** foi criado para aumentar o engajamento dos leitores através da gamificação de aberturas de newsletters. Inspirado no Duolingo, a ideia é premiar leitores que mantêm uma sequência de leituras, incentivando a interação contínua com os conteúdos enviados.
 
-## What is inside?
+## 🛠️ Tecnologias Utilizadas
 
-This project uses many tools like:
+Este projeto utiliza as seguintes tecnologias:
 
-- [Vite](https://vitejs.dev)
-- [ReactJS](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Vitest](https://vitest.dev)
-- [Testing Library](https://testing-library.com)
-- [Tailwindcss](https://tailwindcss.com)
-- [Eslint](https://eslint.org)
-- [Prettier](https://prettier.io)
+- [Vite](https://vitejs.dev) - Ferramenta de build rápida para front-end.
+- [ReactJS](https://reactjs.org) - Biblioteca para construção de interfaces.
+- [TypeScript](https://www.typescriptlang.org) - Superset tipado do JavaScript.
+- [Vitest](https://vitest.dev) - Framework de testes rápido para Vite.
+- [Testing Library](https://testing-library.com) - Utilitários para testes acessíveis.
+- [TailwindCSS](https://tailwindcss.com) - Framework CSS utilitário.
+- [ESLint](https://eslint.org) - Linter para código JavaScript e TypeScript.
+- [Prettier](https://prettier.io) - Formatador de código automático.
 
-## Getting Started
+## 📦 Como Começar
 
-### Install
+### 🔧 Instalação
 
-Create the project.
-
-```bash
-pnpm dlx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
-```
-
-Access the project directory.
+Clone o repositório e instale as dependências:
 
 ```bash
-cd my-app
-```
+# Usando npm
+npm install
 
-Install dependencies.
-
-```bash
+# Usando pnpm
 pnpm install
+
+# Usando bun
+bun install
 ```
 
-Serve with hot reload at <http://localhost:5173>.
+Inicie o servidor de desenvolvimento:
 
 ```bash
+# Usando npm
+npm run dev
+
+# Usando pnpm
 pnpm run dev
+
+# Usando bun
+bun run dev
 ```
 
-### Lint
+O servidor estará disponível em: [http://localhost:5173](http://localhost:5173)
+
+### 📏 Linting
+
+Para verificar problemas de linting, utilize:
 
 ```bash
 pnpm run lint
 ```
 
-### Typecheck
+### ✅ Verificação de Tipos
 
 ```bash
 pnpm run typecheck
 ```
 
-### Build
+### 🔨 Build para Produção
 
 ```bash
 pnpm run build
 ```
 
-### Test
+### 🧪 Testes
+
+Para rodar os testes:
 
 ```bash
 pnpm run test
 ```
 
-View and interact with your tests via UI.
+Para visualizar os testes via UI:
 
 ```bash
 pnpm run test:ui
 ```
 
-## License
+## 📜 Licença
 
-This project is licensed under the MIT License.
+Este projeto está licenciado sob a **MIT License**.
+
+## 📂 Estrutura do Projeto
+
+```plaintext
+📦 NEWS GAMIFICATION
+├── 📂 src
+│   ├── 📂 assets       # Arquivos estáticos
+│   ├── 📂 components   # Componentes reutilizáveis
+│   ├── 📂 config       # Configuração do projeto
+│   ├── 📂 data         # Manipulação de dados
+│   ├── 📂 hook         # Hooks personalizados
+│   ├── 📂 services     # Chamadas de API
+│   ├── 📂 types        # Definição de tipos TypeScript
+│   ├── 📂 utils        # Funções auxiliares
+│   ├── 📂 validation   # Validações e schemas
+│   ├── index.tsx      # Entrada principal do React
+├── 📂 public           # Arquivos estáticos
+├── .editorconfig       # Configuração do editor
+├── .env                # Variáveis de ambiente
+├── .eslintrc.js        # Configuração do ESLint
+├── .gitignore          # Arquivos ignorados pelo Git
+├── .prettierrc         # Configuração do Prettier
+├── index.html          # Página inicial
+├── LICENSE             # Licença do projeto
+├── package.json        # Dependências e scripts
+├── pnpm-lock.yaml      # Lockfile do PNPM
+├── postcss.config.mjs  # Configuração do PostCSS
+├── README.md           # Documentação do projeto
+├── tailwind.config.mjs # Configuração do TailwindCSS
+├── tsconfig.json       # Configuração do TypeScript
+├── vite.config.ts      # Configuração do Vite
+```
+
+## 📬 Contato
+
+Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
+
+**Murilo Sanches de Paula**
+📧 [murilosanchesp@outlook.com](mailto:murilosanchesp@outlook.com)
+🔗 [GitHub](https://github.com/MurilSanches)

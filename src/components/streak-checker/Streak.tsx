@@ -60,14 +60,14 @@ export default function Streak() {
           Voltar
         </button>
 
-        <div className="relative flex w-full items-center justify-center">
-          <h2 className="text-4xl font-bold text-yellow">Olá, {data.name}</h2>
-          <div className="absolute right-0 top-0 flex items-center justify-center gap-2">
+        <div className="relative flex w-full flex-col items-center justify-center gap-4 sm:flex-row">
+          <div className="relative flex items-center justify-center gap-2 sm:absolute sm:bottom-0 sm:right-0">
             <img src={Fire} alt="fogo" className="w-20" />
             <p className="absolute bottom-1 text-2xl font-bold text-white">
               {data.streak}
             </p>
           </div>
+          <h2 className="text-4xl font-bold text-yellow">Olá, {data.name}</h2>
         </div>
 
         <p className="mt-16 text-lg font-bold">
