@@ -82,15 +82,12 @@ export default function Streak() {
 
         <div className="mt-2 w-full rounded-md bg-gray py-2">
           <ul className="text-sm text-white">
-            {data.history.map((date, index) => (
+            {data.history.slice(0, 5).map((date, index) => (
               <li key={index} className="border-b border-yellow py-4">
                 {index + 1} - {new Date(date).toLocaleDateString()}
               </li>
             ))}
           </ul>
-          <button className="mt-2 text-yellow hover:underline">
-            Mostrar mais
-          </button>
         </div>
       </div>
     </div>
